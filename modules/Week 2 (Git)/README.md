@@ -38,9 +38,9 @@ You will perform development and testing of a new feature, or even a bug fix) in
 The workflow will look something like this:
 
 
-1) Add – This will add the change onto your Local Repository (i.e. the project on your computer), NOT your Remote Repository (i.e. the project on the GitHub website)\
-2) Commit – Submitting a change to the repository with a description\
-3) Push – Pushes the change from LOCAL Repo to Remote Repo\
+1) Add – This will add the change onto your Local Repository (i.e. the project on your computer), NOT your Remote Repository (i.e. the project on the GitHub website)
+2) Commit – Submitting a change to the repository with a description
+3) Push – Pushes the change from LOCAL Repo to Remote Repo
 4) Pull – Syncs the Local Repo and Remote Repo so that they are both are up to date
 <br>
 <br>
