@@ -76,7 +76,7 @@ Combining commits together to form one commit. This is useful when you have made
 Conflicting pieces of code between the Local Repository and Remote Repository. They appear when the sub-branch is based off an old version of the main branch (which can happen if you updated the main branch after creating the sub branch), resulting in a conflict when you attempt to merge the sub branch back into the main branch
 
 
-**What is a ReadMe.MD file:**\
+**What is a README.MD file:**\
 This is a file that gives an introduction and explanation of the repository directory and its content. It is useful for anyone viewing the repo in order for them to understand what it is about. If you need an example, well you’re ready a README.md file right now 😀
 
 
