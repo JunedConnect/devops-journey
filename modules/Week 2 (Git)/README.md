@@ -10,10 +10,10 @@ It is a version control tool that allows you create snapshots of your code i.e. 
 
 It allows better management of your code. And where’s there is better management, there is more productivity, more efficiency, and less headache.
 
-Here are some examples of where GIT can help you:
-Accountability – It has features of being able to see who was responsible for versions of the code, which keeps everyone accountable of their work. 
-Compliance – Due to the formalisation process for code development and deployment, it means that your company stands a better chance at with those bothersome audits (and that’s coming from an IT auditor)
-Bug Fixing – To due to ability to roll-back versions of code, you can better manage incidents that affect business operations, while debugging the code in the background.
+Here are some examples of where GIT can help you:\
+Accountability – It has features of being able to see who was responsible for versions of the code, which keeps everyone accountable of their work.\
+Compliance – Due to the formalisation process for code development and deployment, it means that your company stands a better chance at with those bothersome audits (and that’s coming from an IT auditor).\
+Bug Fixing – To due to ability to roll-back versions of code, you can better manage incidents that affect business operations, while debugging the code in the background.\
 
 
 ---
