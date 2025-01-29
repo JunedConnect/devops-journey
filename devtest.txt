@@ -8,4 +8,4 @@ abcdefg
 
 one more time
 
-Merge conflict
+adding another line
