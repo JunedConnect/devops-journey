@@ -44,7 +44,7 @@ fi
 
 In this example, since 1 is less than 2, it will trigger the block code to run, displaying on the terminal "1 is less than 2".
 
-
+<br>
 
 The 'else' and 'elif' statement - Following on from the 'if' command, 
 'elif' - if the set condition was not to true, the 'elif' command allows you to set another condition and run a block of code if that condition has been met
@@ -52,10 +52,10 @@ The 'else' and 'elif' statement - Following on from the 'if' command,
 
 e.g.
 
-if [ 1 gt 2 ]
+if [ 1 > 2 ]
 then
     echo "1 greater  than 2"
-elif [ 3 gt 4]
+elif [ 3 > 4]
     echo "3 greater  than 4"
 else
     echo "1 is not greater than 2. 3 is not greater than 4"
@@ -63,3 +63,32 @@ fi
 
 
 In this example, neither the initial 'if' statement no the 'elift' statement is ture. This will lead to the 'else' statement code block running and displaying the text "1 is not greater than 2. 3 is not greater than 4".
+
+<br>
+
+The 'for' statement - This allows you to execute a block of code iterively for a set number of times that you define.
+
+e.g
+
+touch test.txt
+
+for (( i=1; i<=10; i++ ))
+do
+    echo "$i" >> test.txt
+done
+
+
+In this example, I have created a test file for any data to be outputted into. Next, the 'if' statement has a letter with a defined value i.e i=1. Every time the block of code runs, it will increase the value of the letter by 1. The block of code will keep on executing until the value of i no longer meets the requirements for the for' command i.e. i has to be less than (or equal to) 10.
+
+<br>
+
+The 'while' statemnt - This allows you to continuously execute a piece of code, so long as the the set condition is met.
+
+e.g
+
+while [ 1=1 ]
+do
+    echo "1=1"
+done
+
+In this example, the while loop will continue to echo "1=1" so long as the condition (1=1) is true. In this particular example, since 1=1 is always true, the block of code will continue to run indefinately (unless you stop the command yourself).
