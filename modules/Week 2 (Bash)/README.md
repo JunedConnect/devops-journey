@@ -47,12 +47,12 @@ Here are some of the basics:
 
 e.g
 
-'''
+```bash
 if [ 1<2 ]
 then
     echo "1 is less than 2"
 fi
-'''
+```
 
 In this example, since 1 is less than 2, it will trigger the block code to run, displaying on the terminal "1 is less than 2".
 
@@ -63,8 +63,7 @@ In this example, since 1 is less than 2, it will trigger the block code to run, 
 'else' - if the set condition was not to true, then it will run the code after the 'else' statement within the code block. 
 
 e.g.
-
-'''
+```bash
 if [ 1 > 2 ]
 then
     echo "1 greater  than 2"
@@ -73,7 +72,7 @@ elif [ 3 > 4]
 else
     echo "1 is not greater than 2. 3 is not greater than 4"
 fi
-'''
+```
 
 In this example, neither the initial 'if' statement no the 'elif' statement is true. This will lead to the 'else' statement code block running and displaying the text "1 is not greater than 2. 3 is not greater than 4".
 
@@ -82,15 +81,14 @@ In this example, neither the initial 'if' statement no the 'elif' statement is t
 <b>The 'for' statement</b> - This allows you to execute a block of code iteratively for a set number of times that you define.
 
 e.g
-
-'''
+```bash
 touch test.txt
 
 for (( i=1; i<=10; i++ ))
 do
     echo "$i" >> test.txt
 done
-'''
+```
 
 In this example, I have created a test file for any data to be outputted into. Next, the 'if' statement has a letter with a defined value i.e i=1. Every time the block of code runs, it will increase the value of the letter by 1. The block of code will keep on executing until the value of i no longer meets the requirements for the for' command i.e. i has to be less than (or equal to) 10.
 
@@ -99,12 +97,11 @@ In this example, I have created a test file for any data to be outputted into. N
 <b>The 'while' statement</b> - This allows you to continuously execute a piece of code, so long as the set condition is met.
 
 e.g
-
-'''
+```bash
 while [ 1=1 ]
 do
     echo "1=1"
 done
-'''
+```
 
 In this example, the while loop will continue to echo "1=1" so long as the condition (1=1) is true. In this particular example, since 1=1 is always true, the block of code will continue to run indefinitely (unless you stop the command yourself).
