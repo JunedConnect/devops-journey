@@ -9,6 +9,8 @@ Well, that would be an oversimplification.
 
 <br>
 
+---
+
 **So how is it useful?**
 
 Simply put, it allows you to automate.
@@ -25,6 +27,8 @@ Things such as making backups, user management, system monitoring, no longer hav
 
 <br>
 
+---
+
 **Thats interesting, but What basics do I need to know?**
 
 BASH, although has it's unique way of scripting structure, it encompasses the same fundamentals as with other languages such as Python and PowerShell.
@@ -33,13 +37,17 @@ BASH, although has it's unique way of scripting structure, it encompasses the sa
 
 Here are some of the basics:
 
-<b>Variables</b> - These are words that store data within them. They allow for code to written and read more easily. For example, if you have some data that is quite lengthy, and is used repetitively throughout the script, you can store it within a variables, and call that variable when that piece of data is needed.
+<b>Variable</b> - These are words that store data within them. They allow for code to written and read more easily. For example, if you have some data that is quite lengthy, and is used repetitively throughout the script, you can store it within a variables, and call that variable when that piece of data is needed.
 
 <b>Parameter</b> - This is essentially any data that is passed when you are about to execute a script. It allows the script executer to provide data that can then be used to run the script. For example, the script may want to display your name with a warm welcome, but requires to know your name in the first place. So, when you are executing the script, you can provide a parameter with your name, allowing the script to utilise it and give you a warm welcome.
 
 <b>Comments</b> - When you are writing complex pieces of code, it would be handy to put in some comments for future reference. This will help you (or anyone else) understand the code. You can set comments by using the # followed by the comment on the same line.
 
 <br>
+
+<br>
+
+---
 
 <u>Here are some commands that are fundamental to BASH:</u>
 
