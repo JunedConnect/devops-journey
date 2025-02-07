@@ -113,3 +113,54 @@ done
 ```
 
 In this example, the while loop will continue to echo "1=1" so long as the condition (1=1) is true. In this particular example, since 1=1 is always true, the block of code will continue to run indefinitely (unless you stop the command yourself).
+
+
+<br>
+
+<br>
+
+---
+
+<u>Miscellaneous Notes</u>
+
+<br>
+
+**Variable String Manipulation in Bash**
+
+Bash allows you to modify the contents of a variable **without** using external commands like `cut` or `awk`. One of the most useful techniques is **parameter expansion**, which helps extract or remove parts of a string based on patterns.  
+
+When working with file paths, extensions, or structured text, you can use **`${variable#pattern}`**, **`${variable##pattern}`**, **`${variable%pattern}`**, and **`${variable%%pattern}`** to remove portions from the start or end of a string.
+
+<br>
+
+See below for a breakdown of each one (This is assuming that the `$File` variable has a filename stored):
+
+
+| Symbol  | Removes from...  | Match Type  | Example |
+|---------|-----------------|-------------|---------|
+| **`#`**  | **Start (Left)** | **Shortest match** | `${File#*/}` → removes `/home/` from `/home/user/file.txt`, giving `user/file.txt` |
+| **`##`** | **Start (Left)** | **Longest match** | `${File##*/}` → removes `/home/user/` from `/home/user/file.txt`, giving `file.txt` |
+| **`%`**  | **End (Right)**  | **Shortest match** | `${File%.*}` → removes `.txt` from `file.txt`, giving `file` |
+| **`%%`** | **End (Right)**  | **Longest match** | `${File%%.*}` → removes `.tar.gz` from `backup.tar.gz`, giving `backup` |
+
+<br>
+
+Here's an example using `echo` in combination with the above:
+
+### Bash Script:
+
+```bash
+File="/home/user/documents/report.pdf"
+
+echo "Full path: $File"
+echo "Filename only: ${File##*/}"   # Removes everything before the last /
+echo "Without extension: ${File%.*}"  # Removes the file extension
+```
+
+### Expected Output:
+
+```bash
+Full path: /home/user/documents/report.pdf
+Filename only: report.pdf
+Without extension: /home/user/documents/report
+```
