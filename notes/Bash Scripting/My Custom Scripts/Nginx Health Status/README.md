@@ -1,4 +1,4 @@
-**File Organiser**\
+**Nginx Health Status**\
 <br>
 
-This is a custom script that I had created, which will generate a username and password for you, storing it within a csv file.
+This is a custom script that I had created, which will check the health status of two servers, and will feddd that information into the Nginx HTML file. This will allow you to visualise the health of your servers.
