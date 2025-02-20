@@ -1,8 +1,8 @@
 #!/bin/bash
 
-BS1IP=172.31.16.102
+BS1IP= #insert IP address here
 
-BS2IP=172.31.22.93
+BS2IP= #insert IP address here
 
 
 while true
