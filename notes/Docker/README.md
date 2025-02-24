@@ -117,3 +117,16 @@ Why use Docker Secrets?
 - **Encryption** – Secrets are stored securely and never written to disk.
 - **Access control** – Only authorized containers can access them.
 - **Prevents leaks** – Unlike environment variables, secrets are protected from accidental exposure.
+
+---
+
+### Multistage Builds – Optimizing Dockerfiles for Efficiency
+
+When building a Docker image, it can get big because it includes things you don’t need to run the app. Multistage builds help by letting you have different steps in the Dockerfile. You can build the app in one step, and then use a second step to create the final image with only the files needed to run it. This makes the image smaller and faster to use.
+
+Why use multistage builds?
+
+- **Smaller Image Sizes** – By copying only the necessary files from the build stage, the final image is smaller and faster to pull from a registry.
+- **Cleaner Builds** – Build tools and temporary files are left behind in the build stage, ensuring the final image doesn’t include unnecessary dependencies.
+- **Faster Deployment** – With smaller images, deployments are quicker, saving time during the CI/CD pipeline.
+- **Security** – Reduces the attack surface by only including the runtime environment and excluding build tools that could pose security risks.
