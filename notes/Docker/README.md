@@ -70,6 +70,8 @@ Popular registries include **Docker Hub, AWS Elastic Container Registry (ECR), a
 
 ## **Let’s Get a Bit More Technical**
 
+---
+
 ### Docker Networks – Keeping Things Connected
 
 When you have multiple containers running, they often need to communicate with each other securely. **Docker networks** allow containers to connect while controlling external access. This ensures services like a database or backend API are only accessible where they need to be.
