@@ -1,5 +1,3 @@
-# Untitled
-
 ### AWS - What is It, What Is Its Use Case
 
 AWS (Amazon Web Services) is a cloud platform offering computing power, storage, and various services. It’s used for hosting applications, managing data, running machine learning models, and processing large-scale tasks without the need for physical hardware.
