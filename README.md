@@ -8,5 +8,3 @@ Welcome to my **DevOps Learning Journey**! This repository is a collection of al
 If you have any questions or just want to chat, don’t hesitate to reach out.
 
 I'm always happy to connect!
-
-Happy learning and coding! 🚀
