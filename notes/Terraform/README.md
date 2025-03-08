@@ -1,5 +1,3 @@
-# Untitled
-
 ### What is Terraform
 
 Terraform is an open-source Infrastructure as Code (IaC) tool for provisioning and managing infrastructure. It uses configuration files to describe the infrastructure needed for applications to run and can automate the deployment process.
